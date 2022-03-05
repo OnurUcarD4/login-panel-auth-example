@@ -1,0 +1,15 @@
+.forgot-form {
+  @apply gap-2 p-2 items-center;
+}
+.forgot-form-wrapper {
+  @apply flex flex-col gap-3;
+}
+.forgot-button {
+  @apply border rounded-lg font-bold tracking-widest w-full py-3  duration-300 mb-2 hover:duration-300 hover:border-white hover:text-white mt-6;
+}
+.input-user {
+  @apply absolute left-2 top-3 duration-300;
+}
+.back-sign {
+  @apply text-xs hover:opacity-50 duration-300;
+}

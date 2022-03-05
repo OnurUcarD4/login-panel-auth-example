@@ -1,0 +1,24 @@
+.login-panel {
+  @apply p-8;
+}
+.register-panel-wrapper {
+  @apply mt-8 mb-2;
+}
+.form-wrapper {
+  @apply gap-2 p-2 items-center;
+}
+.form-wrap {
+  @apply flex flex-col gap-3;
+}
+.input-wrapper {
+  @apply relative w-full duration-300;
+}
+.password-wrapper {
+  @apply absolute left-2 top-3 duration-300;
+}
+.register-button {
+  @apply border rounded-lg font-bold tracking-widest w-full py-3 mb-4 duration-300 hover:duration-300 hover:border-white hover:text-white mt-6;
+}
+.back-sign {
+  @apply text-xs hover:opacity-50 duration-300;
+}

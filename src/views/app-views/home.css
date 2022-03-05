@@ -1,0 +1,3 @@
+.sign-out-button {
+  @apply border rounded-lg font-bold tracking-widest w-full py-3  duration-300 mb-2 hover:duration-300 hover:border-white hover:text-white mt-6;
+}

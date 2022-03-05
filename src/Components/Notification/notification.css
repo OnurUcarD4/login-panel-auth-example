@@ -1,0 +1,15 @@
+.fadeOut {
+  opacity: 0;
+  width: 300px;
+  height: 100px;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 300px;
+  height: 100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+.notify {
+  @apply pr-10 pl-5 py-8 flex items-center shadow border-[#c3c3c3] border  absolute top-10 z-50 right-0;
+}

@@ -1,0 +1,83 @@
+.login-panel .dark input {
+  background-color: #33383c;
+  width: 100%;
+  outline: none;
+  padding-left: 2rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.login-panel {
+  @apply p-8;
+}
+.header-text {
+  @apply text-2xl font-bold text-glow;
+}
+.darkmode-button {
+  @apply duration-300 px-2 py-1 rounded-md float-right mr-2 border shadow-md;
+}
+.login-form {
+  @apply gap-2 p-2 items-center;
+}
+.login-form-wrapper {
+  @apply flex flex-col gap-3;
+}
+.input-user {
+  @apply absolute left-2 top-3 duration-300;
+}
+.input-pass {
+  @apply absolute left-2 top-3 duration-300;
+}
+.forgot-wrapper {
+  @apply flex justify-end  items-center mt-2 duration-300 hover:opacity-50;
+}
+.submit-button {
+  @apply duration-300 rounded-lg font-bold tracking-widest w-full py-3 mt-4 mb-4;
+}
+.link-button {
+  @apply border rounded-lg font-bold tracking-widest w-full py-3 mb-10 duration-300 hover:duration-300 hover:border-white hover:text-white;
+}
+.login-panel .bright input {
+  background-color: #09246e;
+  width: 100%;
+  outline: none;
+  padding-left: 2rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+.login-panel .dark input::placeholder {
+  color: #6f757a;
+  font-size: medium;
+}
+.login-panel .bright input::placeholder {
+  color: #6a7ed4;
+  font-size: medium;
+}
+.text-glow {
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+.btn-gradient {
+  background-image: linear-gradient(to right, rgb(218, 1, 1), rgb(182 49 167));
+  border: 0;
+  transition: all 0.4s !important;
+}
+
+.btn-gradient:hover {
+  box-shadow: red 0px 0px 10px 0px;
+  transition: all 0.4s !important;
+}
+.btn-gradient-bright {
+  background-image: linear-gradient(
+    to right,
+    rgb(1, 138, 218),
+    rgb(26, 3, 129)
+  );
+  border: 0;
+  transition: all 0.4s !important;
+}
+.btn-gradient-bright:hover {
+  box-shadow: skyblue 0px 0px 10px 0px;
+  transition: all 0.4s !important;
+}

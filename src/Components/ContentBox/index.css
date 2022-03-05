@@ -1,0 +1,3 @@
+.content-box {
+  @apply rounded-sm duration-300 flex flex-col;
+}
